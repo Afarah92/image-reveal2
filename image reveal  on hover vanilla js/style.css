@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+ html, body {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+}
+ body {
+	 width: 100vw;
+	 height: 100vh;
+	 background-color: black;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ ul {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0;
+	 position: relative;
+}
+ ul li {
+	 font-family: 'Belleza', sans-serif;
+	 position: relative;
+	 font-size: 80px;
+	 text-align: center;
+	 -webkit-text-stroke: 1px white;
+	 color: transparent;
+	 margin-bottom: 40px;
+	 z-index: 1;
+}
+ img.image-reveal {
+	 position: absolute;
+	 width: 400px;
+	 height: auto;
+	 object-fit: contain;
+	 transform: translateX(-50%) translateY(-50%);
+	 top: 50%;
+	 left: 50%;
+	 z-index: 10;
+}
+ 
